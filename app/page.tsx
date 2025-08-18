@@ -1391,8 +1391,9 @@ export default function SpySystem() {
             )}
             <Button
               onClick={() =>
-                (window.location.href = "https://pay.mundpay.com/01982e4d-fc8e-71f4-a541-0a44096af694?ref=")
-              } // Simple alert for final CTA
+                (window.location.href =
+                  "https://pay.mundpay.com/01982e4d-fc8e-71f4-a541-0a44096af694?ref=ref_689a65cca9ce1")
+              } // Updated checkout link with new ref parameter
               disabled={timeLeft === 0} // Disable button if offer expired
               className="mt-10 px-10 py-5 text-xl font-bold uppercase bg-gradient-to-r from-red-700 to-black text-white shadow-lg hover:from-red-800 hover:to-gray-900 transition-all duration-300 transform hover:scale-105 animate-pulse-slow disabled:opacity-50 disabled:cursor-not-allowed"
             >
